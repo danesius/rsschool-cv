@@ -1,18 +1,34 @@
 body{
     color: black;
+    background-color: rgb(115, 10, 119);
 }
 .container {
+    background-color: rgb(54, 23, 141);
     max-width: 700px;
     margin: 0 auto;
+    line-height: 1.5rem;
 }
 .cvlist {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
 .listelement {
     padding: 0.3rem;
 }
 .cvlist1 {
+   
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cvlist2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
 }
 .image{
     width: 4rem;
     height: 4rem;
+    border-radius: 50%;
+}
+.link{
+    text-decoration: none;
+    color: green;
 }
